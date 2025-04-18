@@ -15,6 +15,7 @@ type User struct {
 
 type Tweet struct {
 	ID           string
+	Username     string
 	UserID       string
 	Content      string
 	CreatedAt    time.Time
